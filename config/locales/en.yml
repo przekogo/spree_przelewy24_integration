@@ -1,0 +1,4 @@
+en:
+  spree:
+    register_transaction_error: An error occured while processing your order. Please try again.
+    przelewy24_timeout: Connection to Przelewy24 failed. Please try again later.

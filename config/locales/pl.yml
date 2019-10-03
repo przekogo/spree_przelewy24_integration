@@ -1,0 +1,4 @@
+pl:
+  spree:
+    register_transaction_error: Przepraszamy, wystąpił problem z zamówieniem. Prosimy spróbować ponownie.
+    przelewy24_timeout: Błąd połączenia z serwisem Przelewy24. Spróbuj ponownie później.
