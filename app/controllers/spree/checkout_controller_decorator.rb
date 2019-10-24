@@ -46,7 +46,7 @@ module Spree
         p24_description: "Zamowienie nr #{@order.number}",
         p24_email: @order.email,
         p24_country: 'PL',
-        p24_url_return: order_url(@order, {checkout_complete: true, order_token: @order.guest_token}), notice: I18n.t("spree.order_completed"),
+        p24_url_return: order_url(@order, {checkout_complete: true, order_token: @order.token}), notice: I18n.t("spree.order_completed"),
         p24_url_status: przelewy24_confirm_transaction_url(payment_method.id, @order.id),
         p24_api_version: '3.2'
       }

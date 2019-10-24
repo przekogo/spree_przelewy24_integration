@@ -15,10 +15,9 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  spec.add_dependency 'spree', '~> 3.7'
-  spec.add_dependency 'spree_auth_devise', '~> 3.5'
-  spec.add_dependency 'spree_gateway', '~> 3.4'
-  spec.add_dependency 'devise', '>4.7'
+  spec.add_dependency 'spree'
+  spec.add_dependency 'spree_auth_devise', '~> 4.0'
+  spec.add_dependency 'spree_gateway'
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
